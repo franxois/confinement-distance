@@ -18,7 +18,7 @@ module.exports = {
     /* ... */
   },
   buildOptions: {
-    /* ... */
+    baseUrl: '/static/',
   },
   proxy: {
     /* ... */
