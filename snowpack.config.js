@@ -1,7 +1,7 @@
 module.exports = {
   mount: {
     public: '/',
-    src: '/_dist_',
+    src: '/dist',
   },
   plugins: [
     '@snowpack/plugin-react-refresh',
@@ -18,7 +18,7 @@ module.exports = {
     /* ... */
   },
   buildOptions: {
-    baseUrl: '/static/',
+    metaDir: 'snowpack',
   },
   proxy: {
     /* ... */
